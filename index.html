@@ -7,7 +7,11 @@
 <meta name="keywords" content="" />
 <meta name="description" content="">
 
-
+<style>
+    body.hidden {
+        visibility: hidden;
+    }
+</style>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
@@ -16,9 +20,13 @@
             $("head").append(data);
         });
     });
+    window.onload = function () {
+        // Show the body once everything is loaded
+        $("body").removeClass("hidden");
+    };
 </script>
 </head>
-<body>
+<body class="hidden">
 <script>
     $(document).ready(function () {
         $.get("header-body.html", function (data) {
