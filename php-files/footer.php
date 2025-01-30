@@ -1,0 +1,237 @@
+<div id="myButton"></div>
+ <script type="text/javascript">
+
+    $('#myButton').venomButton({
+        phone: '916385105240',
+        popupMessage: 'Hello, how can we help you?',
+        message: "I'd like to book an appointment",
+        showPopup: true,
+        position: "left",
+        linkButton: false,
+        showOnIE: false,
+        headerTitle: 'Welcome!',
+        headerColor: '#25d366',
+        backgroundColor: '#25d366',
+        buttonImage: '<img src="images/whatsapps/whatsapp.svg" />'
+    });
+
+</script>
+<section class="section-dark sec-padding">
+      <div class="container ">
+        <div class="row"> <br/>
+          <div class="col-md-3 col-sm-12 colmargin clearfix margin-bottom">
+            <div class="footer-logo"><img src="images/logo/f-logo.png" alt=""/></div>
+            <ul class="fo-address-info">
+              <li><i class="fa fa-map-marker"></i> Address: 5, 4, 30th St, NCBS Colony, Nanganallur, Chennai, Tamil Nadu 600061</li>
+              <li><i class="fa fa-phone"></i> Phone: <a style="color: #fff;" href="tel:+914422248102">+91 44 2224 8102</a></li>
+              <li><i class="fa fa-phone"></i> Phone: <a style="color: #fff;" href="tel:+914443592202">+91 44 4359 2202</a></li>
+              <li><i class="fa fa-whatsapp"></i> Whatsapp: <a style="color: #fff;" href="https://wa.link/ielz4t">638 5105 240</a></li>
+              <li class="last"><i class="fa fa-envelope"></i> Email: smile@sriramdental.com </li>
+            </ul>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-3 col-xs-12 clearfix margin-bottom">
+            <h4 class="uppercase footer-title less-mar3 raleway font-weight-5">Treatments</h4>
+            <div class="clearfix"></div>
+            <div class="footer-title-bottomstrip"></div>
+            <ul class="footer-quick-links-4">
+              <li><a href="fixed-teeth-in-a-day.php"><img src="images/meanu-icons/fixed-teeth-in-a-day.png"> &nbsp;Fixed Teeth In A Day</a> </li>
+              <li><a href="dental-implants.php"><img src="images/meanu-icons/dental-implant.png"> &nbsp; Dental Implants</a></li>
+              <li><a href="braces-treatment.php"><img src="images/meanu-icons/braces.png"> &nbsp; Braces Treatment</a> </li>
+              <li><a href="clear-aligners.php"><img src="images/meanu-icons/nvisible-braces.png"> &nbsp;Clear Aligners</a> </li>
+              <li><a href="digital-smile-designing.php"><img src="images/meanu-icons/Digital-smile-designing.png"> &nbsp;Digital Smile Designing</a> </li>
+              <li><a href="teeth-whitening.php"><img src="images/meanu-icons/teeth-whitening.png"> &nbsp; Teeth Whitening</a> </li>
+            </ul>
+          </div>
+          
+          
+          <!--end item-->
+          
+          <div class="col-md-3 col-xs-12 clearfix margin-bottom">
+            <h4 class="uppercase footer-title less-mar3 raleway font-weight-5">Quick Links</h4>
+            <div class="clearfix"></div>
+            <div class="footer-title-bottomstrip"></div>
+            <ul class="footer-quick-links-4">
+              <li><a href="about-us.php"><img src="images/meanu-icons/What-Sets-Up-Apart.png"> &nbsp; What Sets Us Apart</a> <span class="arrow"></span></li>
+                 <li> <a href="meet-our-dentists.php"><img src="images/meanu-icons/Meet-The-Dentist.png"> &nbsp; Meet The Dentist</a> <span class="arrow"></span></li>
+                          <li> <a href="meet-our-team.php"><img src="images/meanu-icons/Meet-THe-Team.png"> &nbsp; Meet The Team</a> <span class="arrow"></span></li>
+                          <li> <a href="dr-vijjaykanth.php"><img src="images/meanu-icons/Meet-The-Dentist.png"> &nbsp; Dr. Vijjaykanth</a> <span class="arrow"></span></li>
+                           <li> <a href="dr-shanthimathi.php"><img src="images/meanu-icons/Meet-The-Dentist.png"> &nbsp; Dr. Shanthimathi</a> <span class="arrow"></span></li>
+                            <li> <a href="https://www.google.com/search?q=sriram+dental+chennai&client=ubuntu&hs=XTR&ei=pKVdYO69FpuA9QPh5LHgDQ&oq=SRIRAM+DENTAL+channai&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCEQCjoHCAAQRxCwAzoFCAAQzQJQoE9YoE9go2hoAXABeACAAXuIAd4CkgEDMC4zmAEAoAECoAEBqgEHZ3dzLXdpesgBBcABAQ&sclient=gws-wiz#lrd=0x3a525dfe339105fb:0xa48057773eb481f0,1,,," /><img src="images/meanu-icons/google-reviews-remove.png"  /></a></li>
+                            <li> <a href="https://www.practo.com/chennai/clinic/sriram-dental-nanganallur/reviews" /><img src="images/meanu-icons/practo.png"  /></a></li>
+            </ul>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-3 col-xs-12 clearfix margin-bottom">
+            <h4 class="uppercase footer-title less-mar3 raleway font-weight-5">Get Direction</h4>
+            <div class="clearfix"></div>
+            <div class="footer-title-bottomstrip"></div>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.247308105609!2d80.189542!3d12.9838843!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa48057773eb481f0!2sSRIRAM%20DENTAL!5e0!3m2!1sen!2sin!4v1616818930033!5m2!1sen!2sin" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           <a href="https://g.page/SriramDental?share" target="_blank"><img src="images/meanu-icons/get-directions.png" style="width:200px;"></a>
+            <div class="clearfix"></div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-divider-margin-3"></div>
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!--end section-->
+    
+    <section class="sec-moreless-padding">
+      <div class="container">
+        <div class="row">
+          <div class="fo-copyright-holder text-center">
+            <div class="social-iconbox">
+              <div class="side-shape1"><img src="images/fo-icon-box-shape1.png" alt=""/></div>
+              <div class="side-shape1 right-icon"><img src="images/fo-icon-box-shape2.png" alt=""/></div>
+              <ul class="sc-icons">
+                 <li><a target="_blank" href="https://www.facebook.com/sriramlaserdental/"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://instagram.com/sriram_dental?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+            
+            <li><a href="https://www.google.com/maps/place/Sri+Ram+Dental+Clinic+and+Orthodontist/@12.984959,80.1869363,17z/data=!4m7!3m6!1s0x3a525dfe339105fb:0xa48057773eb481f0!8m2!3d12.984959!4d80.189125!9m1!1b1"><i class="fa fa-google-plus"></i></a></li>
+            <li class="last"><a href="https://twitter.com/DentalSriram?t=qDUG5ckrTorTJLWjtlsV0w&s=03"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+            <p style="color: #7f7e7e;"> &copy; Copyright <span id="copyright"> 
+                             <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                             </span> <a href="/" style="color: #666;">Sriram Dental. </a> All Rights Reserved. | Powered By <a style="color: #666;" href="https://praxis360.in/">Praxis360</a>
+                    </p>
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section --> 
+    
+    <a href="#" class="scrollup"></a><!-- end scroll to top of the page--> 
+    
+  </div>
+  <!--end site wrapper--> 
+</div>
+<!--end wrapper boxed--> 
+
+<!-- Scripts --> 
+<script src="js/jquery/jquery.js"></script> 
+<script src="js/bootstrap/bootstrap.min.js"></script> 
+<script src="js/less/less.min.js" data-env="development"></script> 
+<!-- Scripts END --> 
+
+<!-- Template scripts --> 
+<script src="js/megamenu/js/main.js"></script> 
+<script src="js/owl-carousel/owl.carousel.js"></script> 
+<script src="js/owl-carousel/custom.js"></script> 
+<script src="js/tabs/js/responsive-tabs.min.js" type="text/javascript"></script>
+<script src="js/parallax/jquery.parallax-1.1.3.js"></script>
+
+<!-- REVOLUTION JS FILES --> 
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script> 
+
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+
+ 
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+(Load Extensions only on Local File Systems ! 
+The following part can be removed on Server for On Demand Loading) --> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+ 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script> 
+<script type="text/javascript">
+	var tpj=jQuery;			
+	var revapi4;
+	tpj(document).ready(function() {
+	if(tpj("#rev_slider").revolution == undefined){
+	revslider_showDoubleJqueryError("#rev_slider");
+	}else{
+		revapi4 = tpj("#rev_slider").show().revolution({
+		sliderType:"standard",
+		jsFileLocation:"js/revolution-slider/js/",
+		sliderLayout:"auto",
+		dottedOverlay:"none",
+		delay:9000,
+		navigation: {
+		keyboardNavigation:"off",
+		keyboard_direction: "horizontal",
+		mouseScrollNavigation:"off",
+		onHoverStop:"off",
+		arrows:{enable:true},
+		touch:{
+		touchenabled:"on",
+		swipe_threshold: 75,
+		swipe_min_touches: 1,
+		swipe_direction: "horizontal",
+		drag_block_vertical: false
+	}
+	,
+										
+										
+										
+	},
+		viewPort: {
+		enable:true,
+		outof:"pause",
+		visible_area:"80%"
+	},
+	responsiveLevels:[1240,1024,778,480],
+	gridwidth:[1240,1024,778,480],
+	gridheight:[640,640,640,440],
+	lazyType:"smart",
+		parallax: {
+		type:"mouse",
+		origo:"slidercenter",
+		speed:2000,
+		levels:[2,3,4,5,6,7,12,16,10,50],
+		},
+	shadow:0,
+	spinner:"off",
+	stopLoop:"off",
+	stopAfterLoops:-1,
+	stopAtSlide:-1,
+	shuffle:"off",
+	autoHeight:"off",
+	hideThumbsOnMobile:"off",
+	hideSliderAtLimit:0,
+	hideCaptionAtLimit:0,
+	hideAllCaptionAtLilmit:0,
+	disableProgressBar:"on",
+	debugMode:false,
+		fallbacks: {
+		simplifyAll:"off",
+		nextSlideOnWindowFocus:"off",
+		disableFocusListener:false,
+		}
+	});
+	}
+	});	/*ready*/
+</script> 
+ 
+<script>
+    $(window).load(function(){
+      setTimeout(function(){
+
+        $('.loader-live').fadeOut();
+      },1000);
+    })
+
+  </script>
+<script src="js/functions/functions.js"></script>
+
+</body>
+</html>

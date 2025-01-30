@@ -1,0 +1,4 @@
+[01-Jul-2021 11:50:30 UTC] PHP Notice:  Undefined index: captcha in /home/j261wad7yznv/public_html/drpranav.in/sriramdental/php/smartprocess.php on line 21
+[24-Nov-2021 08:49:04 UTC] PHP Warning:  Undefined array key "captcha" in /home/j261wad7yznv/public_html/drpranav.in/sriramdental/php/smartprocess.php on line 21
+[24-Nov-2021 08:49:32 UTC] PHP Warning:  Undefined array key "captcha" in /home/j261wad7yznv/public_html/drpranav.in/sriramdental/php/smartprocess.php on line 21
+[24-Nov-2021 08:49:32 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/j261wad7yznv/public_html/drpranav.in/sriramdental/php/phpmailer/PHPMailerAutoload.php on line 45

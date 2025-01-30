@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>SriRam Dental</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+
+
+ <?php include "header.php"; ?>
+
+
+ <section>
+    <div class="pagenation-holder" style="background-image: url(images/shriram-banner-image.jpg)">
+      <div class="container">
+        <div class="row">
+       <div class="col-md-6"> <h4>Dr. Shanthimathi</h4></div>
+        <div class="col-md-6">
+        <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+
+    <li class="current"><a href="#">Dr. Shanthimathi</a></li>
+</ol>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="clearfix"></div>
+
+
+  <div class="clearfix"></div>
+  <!-- end section -->
+
+   <section class="sec-padding section-light">
+  <div class="container">
+  <div class="row">
+
+  <div class="col-md-5">
+
+<div class="dt-feature-box-5 margin-bottom">
+                <div class="img-box">
+                  <div class="sc-icons-box">
+                    <ul class="sc-icons">
+                       <li><a target="_blank" href="https://www.facebook.com/sriramlaserdental/"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://instagram.com/sriram_dental?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.google.com/maps/place/Sri+Ram+Dental+Clinic+and+Orthodontist/@12.984959,80.1869363,17z/data=!4m7!3m6!1s0x3a525dfe339105fb:0xa48057773eb481f0!8m2!3d12.984959!4d80.189125!9m1!1b1"><i class="fa fa-google-plus"></i></a></li>
+            <li class="last"><a href="https://twitter.com/sriramlaserdental"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="images/DR-SHANTHIMATHI.jpg" alt="" class="img-responsive"> </div>
+                <div class="text-box text-left">
+                  <h5 class="raleway uppercase less-mar-1">Dr. Shanthimathi</h5>
+                  <p class="text-gyellow">B.D.S</p>
+                  <p>She is a certified Endodontist and obtained her training from Meenakshi Ammal Dental College; also she has attended various speciality courses and her areas of interest are Laser Dentistry and Cosmetic/Esthetic Dentistry.</p>
+                  <a class="btn btn-light uppercase" style="border-radius: 22px" href="contact-us.php">Book Appointment</a>
+                  <div class="clear-fix">&nbsp;</div>
+                </div>
+              </div>
+
+
+  </div>
+  <!--end item-->
+
+  <div class="col-md-7">
+ <div class="text-box white padding-5">
+
+  <div class="col-xs-12 nopadding">
+            <div class="sec-title-container less-padding-3 text-left">
+              <div class="ce4-title-line-1 align-left"></div>
+              <h4 class="uppercase font-weight-7 less-mar-1">Dr. Shanthimathi</h4>
+              <div class="clearfix"></div>
+              <p class="by-sub-title">B.D.S</p>
+            </div>
+          </div>
+            <div class="clearfix"></div>
+            <!--end title-->
+
+  <h4 class="raleway">She is a certified Endodontist and obtained her training from Meenakshi Ammal Dental College; also she has attended various speciality courses and her areas of interest are Laser Dentistry and Cosmetic/Esthetic Dentistry. She has undergone special training in Smile designing with Ceramic Veneers and Tempero-Mandibular joint disorders (TMD). She is also a life member of IALD (Indian Academy of Laser Dentistry) and IDA(Indian Dental Association).</h4>
+
+</p>
+<br/>
+
+<ul class="personal-info orange-2">
+             <li><i class="fa fa-map-marker"></i> Address: 5, 4, 30th St, NCBS Colony, Nanganallur, Chennai, Tamil Nadu 600061</li>
+            <li><i class="fa fa-phone"></i> Phone: <a  href="tel:04422248102">044 2224 8102</a></li>
+              <li><i class="fa fa-phone"></i> Phone: <a  href="tel:04443592202">044 4359 2202</a></li>
+              <li><i class="fa fa-whatsapp"></i> Whatsapp: <a  href="https://wa.link/ielz4t">638 5105 240</a></li>
+              <center><a class="btn btn-light uppercase" style="border-radius: 22px" href="contact-us.php">Book Appointment</a></center>
+          </ul>
+
+</div>
+  </div>
+  <!--end item-->
+
+  </div>
+  </div>
+  </section>
+<div class="clearfix"></div>
+
+
+   <?php include "footer.php"; ?>

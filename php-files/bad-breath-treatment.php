@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>SriRam Dental</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+
+
+ <?php include "header.php"; ?>
+
+
+ <section>
+    <div class="pagenation-holder" style="background-image: url(images/shriram-banner-image.jpg)">
+      <div class="container">
+        <div class="row">
+       <div class="col-md-6"> <h4>Bad Breathe Treatment</h4></div>
+        <div class="col-md-6">
+        <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+
+    <li class="current"><a href="#">Bad Breathe Treatment</a></li>
+</ol>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <div class="clearfix"></div>
+
+
+
+    <section class="sec-padding">
+    <div class="container">
+      <div class="row">
+
+
+
+       <div class="col-md-8">
+       <div class="col-md-12 nopadding"><img src="images/our-treatments/bad-breath-treatment.jpg" alt="" class="img-responsive"/></div>
+       <div class="clearfix"></div>
+       <br/><br/>
+        <div class="col-md-12 nopadding">
+          <div class="text-box">
+            <h4 style="text-align:justify;" class="raleway">Bad Breath, also known as halitosis, is probably the most embarrassing dental problem a person can develop. It can adversely affect your connection with other people, which can cause your self-esteem to drop.</h4>
+            <br/>
+            <p style="text-align:justify;">There is no single cure for bad breath, so the treatment will depend on the cause.</p>
+            <br/>
+
+
+          </div>
+        </div>
+
+        <div class="col-md-12 nopadding">
+            <h3>Causes of Bad Breath</h3>
+             <p style="text-align: justify;">Halitosis can be caused by many factors, such as:</p>
+
+            <div class="col-md-12">
+          <div class="text-box">
+
+
+            <ul>
+                <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Foods that remain or are stuck between your teeth, producing a film that attaches to the mouth </li>
+<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Alcoholic beverages that cause the mouth to become dry</li>
+<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Certain medications that reduce the production of saliva</li>
+<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Untreated tooth decay, periodontal disease, or abscesses</li>
+<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Respiratory infections</li>
+                </ul>
+
+
+          </div>
+           </div>
+           <!-- <div class="col-md-5">
+               <img src="https://via.placeholder.com/450x350" alt="" class="img-responsive"/>
+            </div>   -->
+        </div>
+       <div class="clearfix"></div>
+       <br/><br/>
+        <div class="col-md-12 nopadding">
+            <h3>Treatment for Bad Breath</h3>
+            <div class="col-md-12">
+          <div class="text-box">
+
+            <p style="text-align: justify;">The Bad Breath treatment will depend on the cause. In most cases, regular professional cleaning will be recommended to eliminate the plaque and tartar that cause a bad odor.</p>
+            <p style="text-align: justify;">If you have tooth decay, the dentist may recommend tooth filling or dental bonding to remove caries and at the same time restore the health of your teeth.</p>
+            <p style="text-align: justify;">Your home care will also need to be improved, especially if this is one of the reasons for your halitosis. Your dentist will demonstrate the proper flossing and brushing techniques and suggest the right mouthwash and toothpaste for your needs.</p>
+            <p style="text-align: justify;">Regular visits to your dentist, coupled with good home care and a healthy diet, are essential keys to improving the health of your teeth and gums, including your overall wellbeing.</p>
+            <p style="text-align: justify;">Bad breath can affect your social and personal life. Don’t wait until someone keeps their distance from you whenever you open your mouth. Bad breath may also indicate a problem beyond mere oral health disease and hence a dentist is crucial in determining the cause of the problem and the best solution to the problem. Book an appointment with us for Bad Breath Treatment.</p>
+
+
+          </div>
+           </div>
+
+        </div>
+
+
+
+       </div>
+       <!--end left col-->
+
+     <?php include "side-bar.php"; ?>
+
+
+      </div>
+    </div>
+  </section>
+  <!--end item -->
+  <div class="clearfix"></div>
+
+
+         <?php include "footer.php"; ?>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>SriRam Dental</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+
+
+ <?php include "header.php"; ?>
+
+
+ <section>
+    <div class="pagenation-holder" style="background-image: url(images/shriram-banner-image.jpg)">
+      <div class="container">
+        <div class="row">
+       <div class="col-md-6"> <h4>Meet Our Dentists</h4></div>
+        <div class="col-md-6">
+        <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+
+    <li class="current"><a href="#">Meet Our Dentists</a></li>
+</ol>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <div class="clearfix"></div>
+  <section class="parallax-27">
+      <div class="container-fluid nopadding">
+	<div class="parallax-overlay light">
+        <div class="container sec-tpadding-3 sec-bpadding-3">
+          <div class="row">
+            <div class="col-xs-12 nopadding">
+              <div class="sec-title-container less-padding-3 text-center">
+                <h6 class="uppercase less-mar-1 text-gyellow raleway">Our Team</h6>
+                <h3 class="uppercase less-mar-1 raleway">Our <span class="font-weight-7">Dentists</span></h3>
+                <div class="clearfix"></div>
+                <div class="dt-title-line-1"></div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <!--end title-->
+              <div class="col-md-2 col-sm-6 col-xs-12">
+               <div class="clear-fix">&nbsp;</div>
+              </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="dt-feature-box-5 margin-bottom">
+                <div class="img-box">
+                  <div class="sc-icons-box">
+                    <ul class="sc-icons">
+                      <li><a target="_blank" href="https://www.facebook.com/sriramlaserdental/"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://instagram.com/sriram_dental?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.google.com/maps/place/Sri+Ram+Dental+Clinic+and+Orthodontist/@12.984959,80.1869363,17z/data=!4m7!3m6!1s0x3a525dfe339105fb:0xa48057773eb481f0!8m2!3d12.984959!4d80.189125!9m1!1b1"><i class="fa fa-google-plus"></i></a></li>
+            <li class="last"><a href="https://twitter.com/DentalSriram?t=qDUG5ckrTorTJLWjtlsV0w&s=03"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="images/DR-VIJJAYKANTH.jpg" alt="" class="img-responsive"/> </div>
+                <div class="text-box text-left">
+                  <h5 class="raleway uppercase less-mar-1">Dr. Vijjaykanth</h5>
+                  <p class="text-gyellow">B.D.S, M.D.S(Orthodontics & Dentofacial Orthopedics)</p>
+                  <p>He is the first SureSmile Aligner(USA) Key Opinion Leader in India. His area of special interest in Adult Orthodontics.</p>
+                  <a class="btn btn-light uppercase" style="border-radius: 22px" href="dr-vijjaykanth.php">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!--end item -->
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="dt-feature-box-5 margin-bottom">
+                <div class="img-box">
+                  <div class="sc-icons-box">
+                    <ul class="sc-icons">
+                       <li><a target="_blank" href="https://www.facebook.com/sriramlaserdental/"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://instagram.com/sriram_dental?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.google.com/maps/place/Sri+Ram+Dental+Clinic+and+Orthodontist/@12.984959,80.1869363,17z/data=!4m7!3m6!1s0x3a525dfe339105fb:0xa48057773eb481f0!8m2!3d12.984959!4d80.189125!9m1!1b1"><i class="fa fa-google-plus"></i></a></li>
+            <li class="last"><a href="https://twitter.com/DentalSriram?t=qDUG5ckrTorTJLWjtlsV0w&s=03"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="images/DR-SHANTHIMATHI.jpg" alt="" class="img-responsive"/> </div>
+                <div class="text-box text-left">
+                  <h5 class="raleway uppercase less-mar-1">Dr. Shanthimathi</h5>
+                  <p class="text-gyellow">B.D.S</p>
+                  <p>Dr. Shanthimathi has completed her B.D.S., from Dr. MGR Educational and Research Institute in 2001 and went on to specialize in Root Canal Treatment.</p>
+                  <a class="btn btn-light uppercase" style="border-radius: 22px" href="dr-shanthimathi.php">Read More</a>
+                  <div class="clear-fix">&nbsp;</div>
+                </div>
+              </div>
+            </div>
+            <!--end item -->
+
+        <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="clear-fix">&nbsp;</div>
+        </div>
+            <!--end item -->
+          </div>
+      </div>
+          </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+
+
+
+
+
+
+   <?php include "footer.php"; ?>
