@@ -8,25 +8,103 @@
 <meta name="description" content="">
 
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- header-head addition start -->
+<meta name="author" content="" />
 
-<script>
-    $(document).ready(function () {
-        $.get("header-head.html", function (data) {
-            $("head").append(data);
-        });
-    });
+<!-- Mobile view -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</script>
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/sriram-dental-favicon.png" />
+<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.css" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link rel="stylesheet" href="images/whatsapps/venom-button.min.css" />
+<script
+    type="text/javascript"
+    src="images/whatsapps/venom-button.min.js"
+></script>
+
+<!-- Google fonts  -->
+<link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet"
+/>
+<link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700"
+    rel="stylesheet"
+/>
+<link
+    href="https://fonts.googleapis.com/css?family=Yesteryear"
+    rel="stylesheet"
+/>
+
+<!-- Template's stylesheets -->
+<link rel="stylesheet" href="js/megamenu/stylesheets/screen.css" />
+<link rel="stylesheet" href="css/theme-default.css" type="text/css" />
+<link rel="stylesheet" href="js/loaders/stylesheets/screen.css" />
+<link rel="stylesheet" href="css/dental.css" type="text/css" />
+<link rel="stylesheet" href="css/corporate.css" type="text/css" />
+<link
+    rel="stylesheet"
+    href="fonts/font-awesome/css/font-awesome.min.css"
+    type="text/css"
+/>
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="fonts/Simple-Line-Icons-Webfont/simple-line-icons.css"
+    media="screen"
+/>
+<link rel="stylesheet" href="fonts/et-line-font/et-line-font.css" />
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="js/revolution-slider/css/settings.css"
+/>
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="js/revolution-slider/css/layers.css"
+/>
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="js/revolution-slider/css/navigation.css"
+/>
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="js/smart-forms/smart-forms.css" />
+<link href="js/owl-carousel/owl.theme.css" rel="stylesheet" />
+<link
+    href="js/tabs/css/responsive-tabs.css"
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+/>
+
+<!-- Template's stylesheets END -->
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet/less" type="text/css" href="less/skin.less" />
+
+<!-- Skin stylesheet -->
+
+
+    <!-- header-head addition end -->
+
 </head>
 <body>
-<script>
-    $(document).ready(function () {
-        $.get("header-body.html", function (data) {
-            $("body").prepend(data);
+    <script id="header-body-placeholder"></script>
+    <script>
+        $(document).ready(function () {
+            $.get("header-body.html", function (data) {
+                $("#header-body-placeholder").replaceWith(data);
+            });
         });
-    });
-</script>
+    </script>
 
  <div class="clearfix"></div>
 
@@ -394,8 +472,8 @@
                   <div class="clearfix"></div>
                   <br/>
                   <h4 class="raleway less-mar-1"><i class="fa fa-phone text-gyellow" aria-hidden="true"></i> Call Us</h4>
-                  <h3 class="font-weight-3 text-gyellow font-mob"><a href="tel:+914422248102">+91 44 22248 102</a></h3>
                   <h3 class="font-weight-3 text-gyellow font-mob"><a href="tel:+914443592202">+91 44 43592 202</a></h3>
+                  <h3 class="font-weight-3 text-gyellow font-mob"><a href="tel:+916385102904">+91 638 5102 904</a></h3>
                    <h3 class="font-weight-3 text-gyellow font-mob"><a href="tel:+916385105240">+91 638 5105 240</a></h3>
                   <br/>
                   <a class="btn btn-light btn-large uppercase" href="#">make an appointment</a> </div>
