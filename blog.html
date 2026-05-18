@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Blog | Sriram Dental Nanganallur | Dental Health Tips & Guides</title>
+<meta name="keywords" content="dental blog nanganallur, dental health tips chennai, suresmile aligners guide, dental implants guide chennai" />
+<meta name="description" content="Dental health tips, treatment guides, and expert advice from Prof. Dr. Vijjaykanth at Sriram Dental, Nanganallur. Learn about clear aligners, implants, and oral care.">
+<meta property="og:title" content="Blog | Sriram Dental Nanganallur Chennai">
+<meta property="og:description" content="Expert dental health tips and treatment guides from Sriram Dental, Nanganallur.">
+<meta property="og:image" content="https://sriramdental.com/images/logo/logo.png">
+<meta property="og:url" content="https://sriramdental.com/blog.html">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sriramdental.com/blog.html">
+
+<style>
+    body.hidden { visibility: hidden; }
+    .blog-card { border: 1px solid #eee; border-radius: 5px; padding: 20px; margin-bottom: 25px; transition: box-shadow 0.3s; }
+    .blog-card:hover { box-shadow: 0 2px 15px rgba(0,0,0,0.1); }
+    .blog-card h3 { font-size: 18px; margin-bottom: 10px; }
+    .blog-card h3 a { color: #2A54A0; text-decoration: none; }
+    .blog-card h3 a:hover { text-decoration: underline; }
+    .blog-meta { color: #888; font-size: 13px; margin-bottom: 10px; }
+    .blog-excerpt { color: #555; line-height: 1.7; }
+    .blog-tag { display: inline-block; background: #f0f4ff; color: #2A54A0; padding: 3px 10px; border-radius: 3px; font-size: 12px; margin-right: 5px; }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.get("header-head.html", function (data) { $("head").append(data); });
+    });
+    window.onload = function () { $("body").removeClass("hidden"); };
+</script>
+</head>
+<body class="hidden">
+<script>
+    $(document).ready(function () {
+        $.get("header-body.html", function (data) { $("body").prepend(data); });
+    });
+</script>
+
+<section>
+    <div class="pagenation-holder" style="background-image: url(images/shriram-banner-image.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><h1 style="font-size:20px;margin:0;">Dental Health Blog — Sriram Dental, Nanganallur</h1></div>
+                <div class="col-md-6">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="blog.html">Blog</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="clearfix"></div>
+
+<section class="sec-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+
+                <div class="col-md-12 nopadding">
+                    <h2 style="margin-bottom: 5px;">Expert Dental Advice from Sriram Dental</h2>
+                    <p style="color:#666; margin-bottom:30px;">Tips, guides, and insights from Prof. Dr. Vijjaykanth and our dental team in Nanganallur, Chennai.</p>
+                </div>
+
+                <div class="col-md-12 nopadding">
+                    <div class="blog-card">
+                        <span class="blog-tag">Clear Aligners</span>
+                        <span class="blog-tag">Orthodontics</span>
+                        <h3><a href="blog-suresmile-vs-traditional-braces.html">SureSmile Clear Aligners vs Traditional Braces: Which is Right for You?</a></h3>
+                        <div class="blog-meta">By Prof. Dr. Vijjaykanth | May 2026 | 5 min read</div>
+                        <p class="blog-excerpt">Confused between clear aligners and metal braces? India's first SureSmile KOL explains the differences in cost, comfort, duration, and results to help you make the right choice for your smile.</p>
+                        <a href="blog-suresmile-vs-traditional-braces.html" style="color:#2A54A0;">Read more →</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--end left col-->
+
+            <script id="side-bar-placeholder"></script>
+            <script>
+                $(document).ready(function () {
+                    $.get("side-bar.html", function (data) { $("#side-bar-placeholder").replaceWith(data); });
+                });
+            </script>
+        </div>
+    </div>
+</section>
+
+<div class="clearfix"></div>
+
+<script>
+    $(document).ready(function () {
+        $.get("footer.html", function (data) { $("body").append(data); });
+    });
+</script>
+</body>
+</html>

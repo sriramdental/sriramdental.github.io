@@ -20,7 +20,7 @@
       <div class="container ">
         <div class="row"> <br/>
           <div class="col-md-3 col-sm-12 colmargin clearfix margin-bottom">
-            <div class="footer-logo"><img src="images/logo/f-logo.png" alt=""/></div>
+            <div class="footer-logo"><img src="images/logo/f-logo.png" alt="Sriram Dental Clinic logo"/></div>
             <ul class="fo-address-info">
               <li><i class="fa fa-map-marker"></i> Address: 5, 4, 30th St, NCBS Colony, Nanganallur, Chennai, Tamil Nadu 600061</li>
               <li><i class="fa fa-phone"></i> Phone: <a style="color: #fff;" href="tel:+914443592202">+91 44 4359 2202</a></li>
@@ -86,8 +86,8 @@
         <div class="row">
           <div class="fo-copyright-holder text-center">
             <div class="social-iconbox">
-              <div class="side-shape1"><img src="images/fo-icon-box-shape1.png" alt=""/></div>
-              <div class="side-shape1 right-icon"><img src="images/fo-icon-box-shape2.png" alt=""/></div>
+              <div class="side-shape1"><img src="images/fo-icon-box-shape1.png" alt="Decorative element"/></div>
+              <div class="side-shape1 right-icon"><img src="images/fo-icon-box-shape2.png" alt="Decorative element"/></div>
               <ul class="sc-icons">
                  <li><a target="_blank" href="https://www.facebook.com/sriramlaserdental/"><i class="fa fa-facebook"></i></a></li>
             <li><a target="_blank" href="https://instagram.com/sriram_dental?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
@@ -235,17 +235,42 @@ The following part can be removed on Server for On Demand Loading) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "DentalClinic",
-  "name": "Sriram Dental",
-  "image": "https://sriramdental.in/images/logo/logo.png",
+  "@type": "Dentist",
+  "name": "Sriram Dental Clinic",
+  "alternateName": "Sriram Dental",
+  "image": "https://sriramdental.com/images/logo/logo.png",
+  "url": "https://sriramdental.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "5/4, 30th St, NCBS Colony",
-    "addressLocality": "Nanganallur, Chennai",
-    "postalCode": "600061"
+    "addressLocality": "Nanganallur",
+    "addressRegion": "Chennai, Tamil Nadu",
+    "postalCode": "600061",
+    "addressCountry": "IN"
   },
-  "telephone": "+91 44 4359 2202",
-  "openingHours": "Mon- Fri 10 AM – 2 PM & 5 PM – 9 PM Saturday 10 AM – 2 PM & 5 PM – 9 PM Sunday 10 AM – 2 PM",
-  "priceRange": "$$"
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "12.984959",
+    "longitude": "80.189125"
+  },
+  "telephone": "+914443592202",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "14:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "17:00", "closes": "21:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "14:00"}
+  ],
+  "priceRange": "₹₹",
+  "areaServed": ["Nanganallur","Alandur","Adambakkam","Madipakkam","Velachery","Pallikaranai","Guindy","Chromepet","Tambaram"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "1554",
+    "bestRating": "5"
+  },
+  "sameAs": [
+    "https://www.facebook.com/sriramlaserdental/",
+    "https://www.instagram.com/sriram_dental/",
+    "https://www.instagram.com/suresmilealigners/"
+  ]
 }
 </script>
