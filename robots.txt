@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
 
+# Block template partials (not standalone pages)
+Disallow: /header-head.html
+Disallow: /header-body.html
+Disallow: /footer.html
+Disallow: /side-bar.html
+
+# Block non-page resources
+Disallow: /php-files/
+Disallow: /php1/
+Disallow: /mail/
+Disallow: /.well-known/
+
 Sitemap: https://sriramdental.com/sitemap.xml
